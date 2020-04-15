@@ -7,7 +7,6 @@ def soma_numero_impar(matriz):
     return sum(lista_impar)
 
 
-
 matriz = []
 dimensoes = int(input('Quantas dimensões terá a matriz: '))
 for i in range(dimensoes):
