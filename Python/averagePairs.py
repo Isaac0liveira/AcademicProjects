@@ -7,7 +7,7 @@ while(loop > -1):
        break
     elif valor1 == -1:
        break
-    if valor1 and valor2 % 2 == 0:
+    if valor1 % 2 == 0 and valor2 % 2 == 0:
        print('A média desses valores é ', media)
     else:
         print('Apenas valores pares!!!')
